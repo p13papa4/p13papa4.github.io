@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <title>Moloko By Josweb</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,300,100'
+    rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,700,400italic'
+    rel='stylesheet' type='text/css'>
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/docs.css">
+    <!-- js -->
+    <script src="js/jquery-1.7.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.custom.js"></script>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	<!--[if IE 7]>
+ 	<link rel="stylesheet" href="css/font-awesome-ie7.css">
+	<![endif]-->
+  </head>
+  
+  <body>
+    <!-- navigation-->
+    <div class="masthead">
+      <div class="container clearfix">
+        <!-- button for small devices-->
+        <div class="row no-margin">
+          <div class="span12">
+            <!-- hidden navigation-->
+            <div class="hidden-desktop">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-align-justify"></span></a></div>
+            <!-- logo -->
+            <div class="brand"> <a href="#intro">Mol<span class="red">o</span>ko</a>
+            </div>
+            <!-- navigation -->
+            <div class="navbar ">
+              <div class="nav-collapse collapse">
+                <ul class="nav pull-right ">
+                  <li><a href="index.html">Back</a> 
+                  </li>
+                  <li><a href="icons.html">Icons</a> 
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end navigation -->
+      </div>
+    </div>
+    <!-- end container -->
+    <div class="container">
+      	<h4>Grid example</h4>
+
+      <p>The default Bootstrap grid system utilizes <strong>12 columns</strong>,
+        making for a 940px wide container without responsive features enabled.
+        With the responsive CSS file added, the grid adapts to be 724px and 1170px
+        wide depending on your viewport. Below 767px viewports, the columns become
+        fluid and stack vertically.</p>
+      <div class="bs-docs-grid">
+        <div class="row show-grid">
+          <div class="span1">1</div>
+          <div class="span1">1</div>
+          <div class="span1">1</div>
+          <div class="span1">1</div>
+          <div class="span1">1</div>
+          <div class="span1">1</div>
+          <div class="span1">1</div>
+          <div class="span1">1</div>
+          <div class="span1">1</div>
+          <div class="span1">1</div>
+          <div class="span1">1</div>
+          <div class="span1">1</div>
+        </div>
+        <div class="row show-grid">
+          <div class="span2">2</div>
+          <div class="span3">3</div>
+          <div class="span3">3</div>
+          <div class="span4">4</div>
+        </div>
+        <div class="row show-grid">
+          <div class="span4">4</div>
+          <div class="span8">8</div>
+        </div>
+        <div class="row show-grid">
+          <div class="span12">12</div>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="span6">
+          
+		<h4>Supported devices</h4>
+
+          <p>Bootstrap supports a handful of media queries in a single file to help
+            make your projects more appropriate on different devices and screen resolutions.
+            Here's what's included:</p>
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Label</th>
+                <th>Layout width</th>
+                <th>Column width</th>
+                <th>Gutter width</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Large display</td>
+                <td>1200px and up</td>
+                <td>70px</td>
+                <td>30px</td>
+              </tr>
+              <tr>
+                <td>Default</td>
+                <td>980px and up</td>
+                <td>60px</td>
+                <td>20px</td>
+              </tr>
+              <tr>
+                <td>Portrait tablets</td>
+                <td>768px and above</td>
+                <td>42px</td>
+                <td>20px</td>
+              </tr>
+              <tr>
+                <td>Phones to tablets</td>
+                <td>767px and below</td>
+                <td class="muted" colspan="2">Fluid columns, no fixed widths</td>
+              </tr>
+              <tr>
+                <td>Phones</td>
+                <td>480px and below</td>
+                <td class="muted" colspan="2">Fluid columns, no fixed widths</td>
+              </tr>
+            </tbody>
+          </table>
+<pre style="margin-top:-10px" class="prettyprint linenums">
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
+</pre>
+
+  
+         
+		<h4>Headings</h4>
+
+          <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> are
+            available.</p>
+          <div class="bs-docs-example">
+             <h1>h1. Heading 1</h1>
+
+             <h2>h2. Heading 2</h2>
+
+             <h3>h3. Heading 3</h3>
+
+             <h4>h4. Heading 4</h4>
+
+             <h5>h5. Heading 5</h5>
+
+             <h6>h6. Heading 6</h6>
+
+          </div>
+
+	
+
+           <h4>Default buttons</h4>
+
+          <p>Button styles can be applied to anything with the <code>.btn</code> class
+            applied. However, typically you'll want to apply these to only <code>&lt;a&gt;</code> and <code>&lt;button&gt;</code> elements
+            for the best rendering.</p>
+          <table class="table table-bordered table-striped">
+            <thead>
+              <tr>
+                <th>Button</th>
+                <th>class=""</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <button type="button" class="btn">Default</button>
+                </td>
+                <td><code>btn</code>
+                </td>
+                <td>Standard gray button with gradient</td>
+              </tr>
+              <tr>
+                <td>
+                  <button type="button" class="btn btn-primary">Primary</button>
+                </td>
+                <td><code>btn btn-primary</code>
+                </td>
+                <td>Provides extra visual weight and identifies the primary action in a set
+                  of buttons</td>
+              </tr>
+              <tr>
+                <td>
+                  <button type="button" class="btn btn-info">Info</button>
+                </td>
+                <td><code>btn btn-info</code>
+                </td>
+                <td>Used as an alternative to the default styles</td>
+              </tr>
+              <tr>
+                <td>
+                  <button type="button" class="btn btn-success">Success</button>
+                </td>
+                <td><code>btn btn-success</code>
+                </td>
+                <td>Indicates a successful or positive action</td>
+              </tr>
+              <tr>
+                <td>
+                  <button type="button" class="btn btn-warning">Warning</button>
+                </td>
+                <td><code>btn btn-warning</code>
+                </td>
+                <td>Indicates caution should be taken with this action</td>
+              </tr>
+              <tr>
+                <td>
+                  <button type="button" class="btn btn-danger">Danger</button>
+                </td>
+                <td><code>btn btn-danger</code>
+                </td>
+                <td>Indicates a dangerous or potentially negative action</td>
+              </tr>
+              <tr>
+                <td>
+                  <button type="button" class="btn btn-inverse">Inverse</button>
+                </td>
+                <td><code>btn btn-inverse</code>
+                </td>
+                <td>Alternate dark gray button, not tied to a semantic action or use</td>
+              </tr>
+            </tbody>
+          </table>
+
+	
+	
+           <h4>Button sizes</h4>
+
+          <p>Add <code>.btn-large</code>, <code>.btn-small</code>, or <code>.btn-mini</code> for
+            additional sizes.</p>
+          <div class="bs-docs-example">
+            <p>
+              <button type="button" class="btn btn-large btn-primary">Large button</button>
+              <button type="button" class="btn btn-large">Large button</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-primary">Default button</button>
+              <button type="button" class="btn">Default button</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-small btn-primary">Small button</button>
+              <button type="button" class="btn btn-small">Small button</button>
+            </p>
+            <p>
+              <button type="button" class="btn btn-mini btn-primary">Mini button</button>
+              <button type="button" class="btn btn-mini">Mini button</button>
+            </p>
+          </div>
+<pre class="prettyprint linenums">
+&lt;p&gt;
+  &lt;button class="btn btn-large btn-primary" type="button"&gt;Large button&lt;/button&gt;
+  &lt;button class="btn btn-large" type="button"&gt;Large button&lt;/button&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;button class="btn btn-primary" type="button"&gt;Default button&lt;/button&gt;
+  &lt;button class="btn" type="button"&gt;Default button&lt;/button&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;button class="btn btn-small btn-primary" type="button"&gt;Small button&lt;/button&gt;
+  &lt;button class="btn btn-small" type="button"&gt;Small button&lt;/button&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;button class="btn btn-mini btn-primary" type="button"&gt;Mini button&lt;/button&gt;
+  &lt;button class="btn btn-mini" type="button"&gt;Mini button&lt;/button&gt;
+&lt;/p&gt;
+</pre>
+
+          <p>Create block level buttons by adding <code>.btn-block</code>
+          </p>
+          <div class="bs-docs-example">
+            <div class="well" style="max-width: 400px; margin: 0 auto 10px;">
+              <button type="button" class="btn btn-large btn-block">Block level button</button>
+            </div>
+          </div>
+<pre class="prettyprint linenums">
+&lt;button class="btn btn-large btn-block" type="button"&gt;Block level button&lt;/button&gt;
+</pre>
+
+        
+
+		<h4>Emphasis classes</h4>
+
+          <p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> are
+            available.</p>
+          <div class="bs-docs-example">
+            <p class="muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+            <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+            <p class="text-error">Donec ullamcorper nulla non metus auctor fringilla.</p>
+            <p class="text-info">Aenean eu leo quam. Pellentesque ornare sem lacinia quam.</p>
+            <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor.</p>
+          </div>
+<pre class="prettyprint linenums">
+&lt;p class="muted"&gt;Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.&lt;/p&gt;
+&lt;p class="text-warning"&gt;Etiam porta sem malesuada magna mollis euismod.&lt;/p&gt;
+&lt;p class="text-error"&gt;Donec ullamcorper nulla non metus auctor fringilla.&lt;/p&gt;
+&lt;p class="text-info"&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam.&lt;/p&gt;
+&lt;p class="text-success"&gt;Duis mollis, est non commodo luctus, nisi erat portt.&lt;/p&gt;
+</pre> 
+          <p>
+             <h4>Wells</h4>
+
+            <p>Use the well as a simple effect on an element to give it an inset effect.</p>
+            <div
+            class="bs-docs-example">
+              <div class="well">Look, I'm in a well!</div>
+        </div>
+<pre class="prettyprint linenums">
+&lt;div class="well"&gt;...&lt;/div&gt;
+</pre>
+
+        <br>
+      </div>
+      <div class="span6">
+
+ 
+     
+		<h4>Tables</h4>
+
+        <p>Add any of the follow classes to the <code>.table</code> base class.</p> <code>table-striped</code>
+
+        <p>Adds zebra-striping to any table row within the <code>&lt;tbody&gt;</code> via
+          the <code>:nth-child</code> 
+        </p>
+        <div class="bs-docs-example">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+<pre class="prettyprint linenums" style="margin-bottom: 18px;">
+&lt;table class="table table-striped"&gt;...&lt;/table&gt;
+</pre>
+
+	
+	
+         <h4>Hero unit</h4>
+
+        <p>A lightweight, flexible component to showcase key content on your site.</p>
+        <div
+        class="bs-docs-example">
+          <div class="hero-unit">
+             <h1>Hello, world!</h1>
+
+            <p>This is a simple hero unit, a simple jumbotron-style component for calling
+              extra attention to featured content or information.</p>
+            <p><a class="btn btn-inverse btn-large"><strong>Learn more</strong></a>
+            </p>
+          </div>
+      </div>
+<pre class="prettyprint linenums">
+&lt;div class="hero-unit"&gt;
+  &lt;h1&gt;Heading&lt;/h1&gt;
+  &lt;p&gt;Tagline&lt;/p&gt;
+  &lt;p&gt;
+    &lt;a class="btn btn-primary btn-large"&gt;
+      Learn more
+    &lt;/a&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+</pre>
+
+	
+	
+       <h4>Page header</h4>
+
+      <p>A simple shell to appropriately space out and segment sections of content
+        on a page.</p>
+      <div class="bs-docs-example">
+        <div class="page-header">
+           <h2>Example page header <small>Subtext for header</small></h2>
+
+        </div>
+      </div>
+<pre class="prettyprint linenums">
+&lt;div class="page-header"&gt;
+  &lt;h2&gt;Example page header &lt;small&gt;Subtext for header&lt;/small&gt;&lt;/h2&gt;
+&lt;/div&gt;
+</pre>
+
+      
+      
+         <h4>Alerts</h4>
+          
+          <div class="bs-docs-example">
+            <div class="alert">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <strong>Warning!</strong> Best check yo self, you're not looking too good.
+            </div>
+
+<div class="alert alert-error">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <strong>Oh snap!</strong> Change a few things up and try submitting again.
+            </div>
+
+<div class="alert alert-success">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <strong>Well done!</strong> You successfully read this important alert message.
+            </div>
+
+<div class="alert alert-info">
+              <button type="button" class="close" data-dismiss="alert">&times;</button>
+              <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+            </div>
+          </div>
+<pre class="prettyprint linenums">
+&lt;div class="alert"&gt;
+  &lt;button type="button" class="close" data-dismiss="alert"&gt;&times;&lt;/button&gt;
+  &lt;strong&gt;Warning!&lt;/strong&gt; Best check yo self, you're not looking too good.
+&lt;/div&gt;
+&lt;div class="alert alert-error"&gt;...&lt;/div&gt;
+&lt;div class="alert alert-success"&gt;...&lt;/div&gt;
+</pre>
+
+	
+      <div class="page-header">
+         <h4>Progress bars</h4>
+		</div>
+       <h4>Basic</h4>
+		<p>Default progress bar with a vertical gradient.</p>
+      <div class="bs-docs-example">
+        <div class="progress">
+          <div class="bar" style="width: 60%;"></div>
+        </div>
+      </div>
+<pre class="prettyprint linenums">
+&lt;div class="progress"&gt;
+  &lt;div class="bar" style="width: 60%;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+       <h4>Striped</h4>
+
+      <p>Uses a gradient to create a striped effect.</p>
+      <div class="bs-docs-example">
+        <div class="progress progress-striped">
+          <div class="bar" style="width: 20%;"></div>
+        </div>
+      </div>
+<pre class="prettyprint linenums">
+&lt;div class="progress progress-striped"&gt;
+  &lt;div class="bar" style="width: 20%;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+       <h4>Animated</h4>
+
+      <p>Add <code>.active</code> to <code>.progress-striped</code> to animate the
+        stripes right to left. Not available in all versions of IE.</p>
+      <div class="bs-docs-example">
+        <div class="progress progress-striped active">
+          <div class="bar" style="width: 45%"></div>
+        </div>
+      </div>
+<pre class="prettyprint linenums">
+&lt;div class="progress progress-striped active"&gt;
+  &lt;div class="bar" style="width: 40%;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+       <h4>Stacked</h4>
+
+      <p>Place multiple bars into the same <code>.progress</code> to stack them.</p>
+      <div
+      class="bs-docs-example">
+        <div class="progress">
+          <div class="bar bar-success" style="width: 35%"></div>
+          <div class="bar bar-warning" style="width: 20%"></div>
+          <div class="bar bar-danger" style="width: 10%"></div>
+        </div>
+    </div>
+<pre class="prettyprint linenums">
+&lt;div class="progress"&gt;
+  &lt;div class="bar bar-success" style="width: 35%;"&gt;&lt;/div&gt;
+  &lt;div class="bar bar-warning" style="width: 20%;"&gt;&lt;/div&gt;
+  &lt;div class="bar bar-danger" style="width: 10%;"&gt;&lt;/div&gt;
+&lt;/div&gt;
+</pre>
+
+    </div>
+    </div>
+    </div>
+     <!--page footer -->
+    <div class="page-footer" id="footer">
+      <div class="container ">
+        <div class="row margin-bottom-none">
+          <div class="span6"> <div class="brand-foot"> <div class="scroll"><a href="#intro">Mol<span class="red">o</span>ko</a></div>
+			</div>
+            <!--social icons -->
+            <div id="social">
+		<a href="#"><img src="img/rss.png" alt="RSS"></a> <a href="#"><img src="img/twitter.png" alt="Twitter"></a> 
+		<a href="#"><img src="img/facebook.png" alt="Facebook"></a>	<a href="#"><img src="img/flickr.png" alt="Flickr"></a>
+	<a href="#"><img src="img/behance.png" alt="Behance"></a> <a href="#"><img src="img/dribbble.png" alt="Dribbble"></a>	
+	<a href="#"><img src="img/skype.png" alt="Skype"></a> <a href="#"><img src="img/vimeo.png" alt="Vimeo"></a> 
+	<a href="#"><img src="img/youtube.png" alt="YouTube"></a> <a href="#"><img src="img/pinterest.png" alt="Pinterest"></a>
+			</div>
+		</div>
+          <div class="span6">
+            <div class="menu">&copy; copyright Moloko
+              <br>
+				<a class="scroll" href="#intro">Top</a> / Design by <a href="http://www.spiralpixel.com">Spiral Pixel</a>
+			</div>
+        </div>
+      </div>
+    </div>
+   </body>
+</html>

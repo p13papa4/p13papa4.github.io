@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Φυτώρια Βασίλα</name>
+  <description><![CDATA[Φυτώρια ελιάς Βασίλα, Ορμύλια Χαλκιδικής. 
+Ποικιλίες ελαιοδέντρων: Χαλκδικής, Μεγάρων και Αγιορείτικη.
+
+http://fytavasilas.gr/]]></description>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Style id="style1">
+    <LineStyle>
+      <color>73FF0000</color>
+      <width>5</width>
+    </LineStyle>
+  </Style>
+  <Placemark>
+    <name>Φυτώρια Βασίλα</name>
+    <description><![CDATA[<div dir="ltr" style="font-family:arial;font-size:10pt"></div><div style="font-family:arial;font-size:10pt">Φυτώρια ελιάς Βασίλα, Ορμύλια Χαλκιδικής.&nbsp;<br>Ποικιλίες ελαιοδέντρων: Χαλκδικής, Μεγάρων και Αγιορείτικη.<br><br>&nbsp;</div><div><font face="arial" size="2"><a href="http://fytavasilas.gr/" target="_blank">http://fytavasilas.gr/</a></font></div>]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>23.550846,40.276661,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Διαδρομή</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style2</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        23.556742,40.276745,0.000000
+        23.553265,40.276974,0.000000
+        23.552534,40.275925,0.000000
+        23.550734,40.276348,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>Line 4</name>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <ExtendedData>
+      <Data name="_SnapToRoads">
+        <value>true</value>
+      </Data>
+    </ExtendedData>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        23.551620,40.252529,0.000000
+        23.553089,40.254871,0.000000
+        23.553320,40.255138,0.000000
+        23.553579,40.255230,0.000000
+        23.558611,40.257809,0.000000
+        23.558611,40.257809,0.000000
+        23.558060,40.258301,0.000000
+        23.558020,40.258400,0.000000
+        23.558020,40.258400,0.000000
+        23.558140,40.258610,0.000000
+        23.558290,40.258751,0.000000
+        23.559120,40.259338,0.000000
+        23.559420,40.259609,0.000000
+        23.559460,40.259800,0.000000
+        23.559389,40.260170,0.000000
+        23.558849,40.261189,0.000000
+        23.558910,40.261890,0.000000
+        23.558880,40.262531,0.000000
+        23.558769,40.263180,0.000000
+        23.558809,40.263691,0.000000
+        23.558620,40.264580,0.000000
+        23.558250,40.265450,0.000000
+        23.558121,40.266090,0.000000
+        23.558001,40.266258,0.000000
+        23.557779,40.266392,0.000000
+        23.557631,40.266548,0.000000
+        23.557581,40.266720,0.000000
+        23.557680,40.267220,0.000000
+        23.557640,40.267681,0.000000
+        23.557301,40.268631,0.000000
+        23.556490,40.270451,0.000000
+        23.556511,40.270660,0.000000
+        23.557011,40.272190,0.000000
+        23.556801,40.272690,0.000000
+        23.556810,40.272930,0.000000
+        23.556940,40.273979,0.000000
+        23.557180,40.274700,0.000000
+        23.557100,40.275471,0.000000
+        23.556860,40.276711,0.000000
+        23.556860,40.276711,0.000000
+        23.556740,40.276711,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>
